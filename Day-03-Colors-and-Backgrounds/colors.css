@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #555;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.color-box {
+    width: 200px;
+    height: 80px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.color-name-red { background-color: red; }
+.color-name-blue { background-color: blue; }
+.color-name-green { background-color: green; }
+
+.hex-1 { background-color: #FF0000; }
+.hex-2 { background-color: #00FF00; }
+.hex-3 { background-color: #0000FF; }
+
+.rgb-1 { background-color: rgb(255, 0, 0); }
+.rgb-2 { background-color: rgb(0, 255, 0); }
+.rgb-3 { background-color: rgb(0, 0, 255); }
+
+.rgba-1 { background-color: rgba(255, 0, 0, 0.5); }
+.rgba-2 { background-color: rgba(0, 255, 0, 0.7); }
+.rgba-3 { background-color: rgba(0, 0, 255, 0.3); }
+
+.hsl-1 { background-color: hsl(0, 100%, 50%); }
+.hsl-2 { background-color: hsl(120, 100%, 50%); }
+.hsl-3 { background-color: hsl(240, 100%, 50%); }
+
+.hsla-1 { background-color: hsla(0, 100%, 50%, 0.5); }
+.hsla-2 { background-color: hsla(120, 100%, 50%, 0.7); }
+.hsla-3 { background-color: hsla(240, 100%, 50%, 0.3); }

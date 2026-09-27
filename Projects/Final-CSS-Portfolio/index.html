@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Developer Portfolio - Final CSS Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">Dev<span>Portfolio</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container container">
+            <div class="hero-text">
+                <span class="badge">Frontend Developer</span>
+                <h1>Hi, I'm <span class="highlight">Alex Morgan</span></h1>
+                <p>Crafting modern, accessible, responsive web interfaces with clean HTML & pure CSS.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="code-box">
+                    <div class="dot red"></div>
+                    <div class="dot yellow"></div>
+                    <div class="dot green"></div>
+                    <pre><code>.developer {
+  skills: [CSS, HTML, UI/UX];
+  passion: "Pixel Perfection";
+}</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+            <div class="about-card">
+                <h3>My Journey</h3>
+                <p>Specialized in clean frontend architecture, responsive layouts, and performance optimization without relying on bloated external frameworks.</p>
+            </div>
+            <div class="about-card">
+                <h3>Design Philosophy</h3>
+                <p>User-first designs backed by web accessibility standards, fluid sizing, and elegant animations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-chip">CSS3 & Variables</div>
+                <div class="skill-chip">Flexbox & Grid</div>
+                <div class="skill-chip">Responsive Design</div>
+                <div class="skill-chip">Keyframe Animations</div>
+                <div class="skill-chip">Web Accessibility</div>
+                <div class="skill-chip">Semantic HTML5</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <article class="project-card">
+                <div class="project-preview preview-1"></div>
+                <div class="project-info">
+                    <h3>Responsive E-Commerce</h3>
+                    <p>Fluid grid design with custom CSS properties and media query breakpoints.</p>
+                    <span class="project-tag">CSS Grid</span>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-preview preview-2"></div>
+                <div class="project-info">
+                    <h3>Analytics Dashboard UI</h3>
+                    <p>Clean dashboard interface built with flexbox alignment and theme tokens.</p>
+                    <span class="project-tag">Flexbox</span>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-preview preview-3"></div>
+                <div class="project-info">
+                    <h3>Interactive Component Library</h3>
+                    <p>Modular UI components built using pure HTML5 & modern CSS3.</p>
+                    <span class="project-tag">Components</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">&lt;/&gt;</div>
+                    <h3>Frontend Engineering</h3>
+                    <p>Structured, maintainable HTML and CSS architecture tailored for production.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">&#9638;</div>
+                    <h3>Responsive Layouts</h3>
+                    <p>Seamless cross-device experiences from mobile screens up to wide desktops.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">&#9881;</div>
+                    <h3>UI Animation</h3>
+                    <p>Hardware-accelerated CSS keyframe animations and smooth state transitions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section container">
+        <h2 class="section-title">Get In Touch</h2>
+        <form class="contact-form">
+            <div class="form-row">
+                <div class="form-field">
+                    <label for="c-name">Name</label>
+                    <input type="text" id="c-name" placeholder="Your Name" required>
+                </div>
+                <div class="form-field">
+                    <label for="c-email">Email</label>
+                    <input type="email" id="c-email" placeholder="Your Email" required>
+                </div>
+            </div>
+            <div class="form-field">
+                <label for="c-msg">Message</label>
+                <textarea id="c-msg" rows="5" placeholder="Your Message..." required></textarea>
+            </div>
+            <button type="submit" class="btn primary-btn submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Alex Morgan. Built with Pure HTML5 & CSS3. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

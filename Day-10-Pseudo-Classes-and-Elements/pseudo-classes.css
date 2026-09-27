@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #555;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.hover-link {
+    color: #3498db;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 5px;
+    transition: all 0.3s;
+}
+
+.hover-link:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+.hover-btn {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hover-btn:hover {
+    background-color: #c0392b;
+}
+
+.active-btn {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.active-btn:active {
+    background-color: #27ae60;
+    transform: scale(0.95);
+}
+
+.focus-input {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.focus-input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+.link-normal {
+    color: #3498db;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.link-normal:link {
+    color: #3498db;
+}
+
+.link-normal:visited {
+    color: #9b59b6;
+}
+
+.link-normal:hover {
+    text-decoration: underline;
+}
+
+.list p {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.list p:first-child {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.list p:last-child {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.list p:nth-child(odd) {
+    background-color: #ecf0f1;
+}
+
+.list p:nth-child(even) {
+    background-color: #bdc3c7;
+}
+
+.list p:not(.special) {
+    color: #666;
+}
+
+.list p.special {
+    color: #e74c3c;
+    font-weight: bold;
+}

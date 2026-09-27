@@ -1,0 +1,40 @@
+:root {
+    --token-brand-primary: #0066cc;
+    --token-space-md: 16px;
+    --token-space-lg: 32px;
+    --token-radius-sm: 4px;
+    --token-radius-lg: 12px;
+    --token-font-size-base: 1rem;
+    --token-font-size-lg: 1.5rem;
+}
+
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: #f0f4f8;
+    padding: var(--token-space-lg);
+    display: flex;
+    justify-content: center;
+}
+
+.theme-card {
+    background: white;
+    padding: var(--token-space-lg);
+    border-radius: var(--token-radius-lg);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    max-width: 450px;
+}
+
+.theme-card h2 {
+    color: var(--token-brand-primary);
+    font-size: var(--token-font-size-lg);
+    margin-top: 0;
+}
+
+.badge {
+    display: inline-block;
+    background-color: var(--token-brand-primary);
+    color: white;
+    padding: calc(var(--token-space-md) / 3) var(--token-space-md);
+    border-radius: var(--token-radius-sm);
+    font-size: 0.85rem;
+}

@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #555;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.box {
+    height: 120px;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.linear-1 {
+    background: linear-gradient(to right, #3498db, #e74c3c);
+}
+
+.linear-2 {
+    background: linear-gradient(to bottom, #2ecc71, #27ae60);
+}
+
+.linear-3 {
+    background: linear-gradient(135deg, #9b59b6, #3498db);
+}
+
+.linear-4 {
+    background: linear-gradient(to right, #ff6b6b, #feca57, #48dbfb, #ff9ff3);
+}
+
+.radial-1 {
+    background: radial-gradient(circle, #f39c12, #e67e22);
+}
+
+.radial-2 {
+    background: radial-gradient(ellipse, #1abc9c, #16a085);
+}
+
+.radial-3 {
+    background: radial-gradient(circle, #ff6b6b, #feca57, #48dbfb);
+}
+
+.conic-1 {
+    background: conic-gradient(from 0deg, #3498db, #e74c3c, #3498db);
+}
+
+.conic-2 {
+    background: conic-gradient(#ff6b6b, #feca57, #48dbfb, #ff9ff3, #ff6b6b);
+}

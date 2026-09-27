@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.example {
+    margin: 30px 0;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.example h2 {
+    font-family: Georgia, serif;
+    color: #333;
+    margin-top: 0;
+}
+
+.example h3 {
+    margin: 15px 0 10px;
+}
+
+.example p {
+    line-height: 1.6;
+    color: #555;
+}
+
+.example:first-child h3 {
+    font-family: Georgia, serif;
+}
+
+.modern-head {
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-weight: 900;
+}
+
+.modern-body {
+    font-family: Arial, sans-serif;
+}
+
+.tech-head {
+    font-family: 'Courier New', monospace;
+}
+
+.tech-body {
+    font-family: Helvetica, Arial, sans-serif;
+}

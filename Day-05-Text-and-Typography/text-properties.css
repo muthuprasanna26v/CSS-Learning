@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #555;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+.indent {
+    text-indent: 30px;
+}
+
+.shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.shadow-multiple {
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.3), -2px -2px 4px rgba(0, 0, 255, 0.3);
+}
+
+.wrap {
+    white-space: normal;
+}
+
+.nowrap {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.pre {
+    white-space: pre;
+    background: #333;
+    color: white;
+}
+
+.overflow-box {
+    width: 300px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

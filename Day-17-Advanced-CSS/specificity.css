@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f3f6;
+    padding: 40px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+/* Specificity: 0, 0, 0, 1 (Element) */
+p {
+    color: gray;
+    font-size: 1.1rem;
+}
+
+/* Specificity: 0, 0, 1, 0 (Class) */
+.text-class {
+    color: blue;
+}
+
+/* Specificity: 0, 1, 0, 0 (ID - Highest specificity wins) */
+#target {
+    color: darkgreen;
+    font-weight: bold;
+}

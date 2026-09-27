@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="selectors.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CSS Selectors Examples</h1>
+        
+        <h2>Universal Selector (*)</h2>
+        <p class="demo">All elements get basic styling from universal selector.</p>
+        
+        <h2>Element Selector</h2>
+        <p>This paragraph uses element selector (p).</p>
+        <h3>This heading uses element selector (h3).</h3>
+        
+        <h2>Class Selector (.class)</h2>
+        <p class="highlight">This has the highlight class.</p>
+        <p class="highlight">This also has the highlight class.</p>
+        <p>This paragraph has no class.</p>
+        
+        <h2>ID Selector (#id)</h2>
+        <p id="special">This paragraph has a special ID.</p>
+        
+        <h2>Grouping Selector (,)</h2>
+        <p>Grouped element.</p>
+        <h3>Grouped heading.</h3>
+        <div class="grouped">Grouped div.</div>
+        
+        <h2>Descendant Selector (space)</h2>
+        <div class="parent">
+            <p>This is a descendant of .parent</p>
+            <span><p>This is also a descendant (nested)</p></span>
+        </div>
+        
+        <h2>Child Selector (>)</h2>
+        <div class="parent2">
+            <p>Direct child of .parent2</p>
+            <span><p>Not a direct child (nested)</p></span>
+        </div>
+        
+        <h2>Adjacent Sibling (+)</h2>
+        <p>First paragraph</p>
+        <p>Second paragraph (adjacent to first)</p>
+        <p>Third paragraph</p>
+        
+        <h2>General Sibling (~)</h2>
+        <p>First paragraph</p>
+        <p>Second paragraph (general sibling)</p>
+        <div>Div element</div>
+        <p>Fourth paragraph (general sibling)</p>
+        
+        <h2>Attribute Selectors</h2>
+        <input type="text" placeholder="Text input">
+        <input type="password" placeholder="Password input">
+        <div class="box">Has class attribute</div>
+        <div class="box-primary">Class starts with box-</div>
+        <div class="test-box">Class ends with -box</div>
+        <div class="my-box-item">Class contains -box-</div>
+    </div>
+</body>
+</html>

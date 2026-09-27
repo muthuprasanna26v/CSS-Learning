@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <link rel="stylesheet" href="pseudo-classes.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CSS Pseudo-Classes</h1>
+        
+        <h2>:hover</h2>
+        <a href="#" class="hover-link">Hover over this link</a>
+        <button class="hover-btn">Hover this button</button>
+        
+        <h2>:active</h2>
+        <button class="active-btn">Click and hold this button</button>
+        
+        <h2>:focus</h2>
+        <input type="text" class="focus-input" placeholder="Click to focus">
+        
+        <h2>Link States</h2>
+        <a href="#" class="link-normal">Normal link</a>
+        <a href="#" class="link-visited">Visited link (if visited)</a>
+        
+        <h2>:first-child and :last-child</h2>
+        <div class="list">
+            <p>First child</p>
+            <p>Middle child</p>
+            <p>Middle child</p>
+            <p>Last child</p>
+        </div>
+        
+        <h2>:nth-child()</h2>
+        <div class="list">
+            <p>Item 1 (odd)</p>
+            <p>Item 2 (even)</p>
+            <p>Item 3 (odd)</p>
+            <p>Item 4 (even)</p>
+            <p>Item 5 (odd)</p>
+        </div>
+        
+        <h2>:not()</h2>
+        <div class="list">
+            <p class="special">Special item</p>
+            <p>Normal item</p>
+            <p>Normal item</p>
+            <p class="special">Special item</p>
+        </div>
+    </div>
+</body>
+</html>

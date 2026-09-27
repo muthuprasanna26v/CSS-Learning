@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    padding: 30px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.box {
+    background-color: #9b59b6;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    transition: transform 0.3s ease;
+}
+
+.translate:hover {
+    transform: translateY(-15px);
+}
+
+.rotate:hover {
+    transform: rotate(15deg);
+}
+
+.scale:hover {
+    transform: scale(1.15);
+}
+
+.skew:hover {
+    transform: skewX(-10deg);
+}

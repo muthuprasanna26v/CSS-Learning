@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    gap: 15px;
+}
+
+.responsive {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.item {
+    background-color: #3498db;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}

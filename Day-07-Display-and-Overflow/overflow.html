@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <link rel="stylesheet" href="overflow.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CSS Overflow Properties</h1>
+        
+        <h2>Visible (default)</h2>
+        <div class="box overflow-visible">
+            <p>This is a very long text that will overflow the container because overflow is set to visible. The content will spill outside the box boundaries.</p>
+        </div>
+        
+        <h2>Hidden</h2>
+        <div class="box overflow-hidden">
+            <p>This is a very long text that will be clipped because overflow is set to hidden. The content that exceeds the container will not be visible.</p>
+        </div>
+        
+        <h2>Scroll</h2>
+        <div class="box overflow-scroll">
+            <p>This is a very long text that will show scrollbars because overflow is set to scroll. You can scroll to see the hidden content.</p>
+        </div>
+        
+        <h2>Auto</h2>
+        <div class="box overflow-auto">
+            <p>This is a very long text that will show scrollbars only when needed because overflow is set to auto. Scrollbars appear only if content overflows.</p>
+        </div>
+        
+        <h2>Overflow-X and Overflow-Y</h2>
+        <div class="box overflow-xy">
+            <p>This is a very long text that demonstrates separate horizontal and vertical overflow control. Horizontal scrolling is enabled while vertical is hidden.</p>
+        </div>
+    </div>
+</body>
+</html>

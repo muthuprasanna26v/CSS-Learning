@@ -1,0 +1,26 @@
+.parent-box {
+    font-family: 'Courier New', Courier, monospace;
+    color: #8e44ad;
+    line-height: 1.8;
+    background-color: #f9f0ff;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+/* Paragraph inherits font-family and color automatically */
+p {
+    font-size: 1.1rem;
+}
+
+/* Force inherit property on button */
+.custom-btn {
+    font-family: inherit;
+    color: inherit;
+    border: 2px solid #8e44ad;
+    background: transparent;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+    <link rel="stylesheet" href="positioning.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CSS Positioning</h1>
+        
+        <h2>Static (default)</h2>
+        <div class="box static">Static positioned element</div>
+        
+        <h2>Relative</h2>
+        <div class="box relative">Relative positioned (moved 20px right)</div>
+        
+        <h2>Absolute</h2>
+        <div class="parent-box">
+            <div class="box absolute">Absolute positioned (inside parent)</div>
+        </div>
+        
+        <h2>Fixed</h2>
+        <div class="box fixed">Fixed positioned (stays at top-right)</div>
+        <p style="height: 1000px;">Scroll down to see fixed element stays in place</p>
+    </div>
+</body>
+</html>

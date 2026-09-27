@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #555;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+.font-serif {
+    font-family: Georgia, serif;
+}
+
+.font-sans {
+    font-family: Arial, sans-serif;
+}
+
+.font-mono {
+    font-family: 'Courier New', monospace;
+}
+
+.size-small {
+    font-size: 14px;
+}
+
+.size-medium {
+    font-size: 18px;
+}
+
+.size-large {
+    font-size: 24px;
+}
+
+.weight-light {
+    font-weight: 300;
+}
+
+.weight-normal {
+    font-weight: 400;
+}
+
+.weight-bold {
+    font-weight: 700;
+}
+
+.style-normal {
+    font-style: normal;
+}
+
+.style-italic {
+    font-style: italic;
+}
+
+.line-1 {
+    line-height: 1.0;
+}
+
+.line-1-5 {
+    line-height: 1.5;
+}
+
+.line-2 {
+    line-height: 2.0;
+}
+
+.letter-normal {
+    letter-spacing: normal;
+}
+
+.letter-wide {
+    letter-spacing: 3px;
+}
+
+.letter-narrow {
+    letter-spacing: -1px;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.deco-none {
+    text-decoration: none;
+}
+
+.deco-underline {
+    text-decoration: underline;
+}
+
+.deco-line-through {
+    text-decoration: line-through;
+}
+
+.transform-none {
+    text-transform: none;
+}
+
+.transform-uppercase {
+    text-transform: uppercase;
+}
+
+.transform-lowercase {
+    text-transform: lowercase;
+}
+
+.transform-capitalize {
+    text-transform: capitalize;
+}

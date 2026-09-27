@@ -1,0 +1,53 @@
+:root {
+    --primary-color: #e67e22;
+    --secondary-color: #d35400;
+    --spacing: clamp(15px, 3vw, 30px);
+    --border-radius: 8px;
+    --font-size: clamp(1rem, 1.2vw, 1.15rem);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcf3cf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-card {
+    background: white;
+    padding: var(--spacing);
+    border-radius: var(--border-radius);
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    width: calc(100% - 40px);
+    max-width: 350px;
+}
+
+.profile-name {
+    color: var(--primary-color);
+    margin: 0 0 10px 0;
+}
+
+.profile-role {
+    font-size: var(--font-size);
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+.profile-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-size: var(--font-size);
+    transition: background-color 0.3s ease;
+}
+
+.profile-btn:hover {
+    background-color: var(--secondary-color);
+}
